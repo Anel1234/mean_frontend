@@ -17,7 +17,7 @@ export class UserDataComponent implements OnInit {
     this.dataService.getUsers()
       .subscribe( items => {
         this.userList = items;
-        console.log('data from dataservice: ' + this.userList[0].notifications[0])
+        //console.log('data from dataservice: ' + this.userList[0].notifications[0])
       })
   };
 
