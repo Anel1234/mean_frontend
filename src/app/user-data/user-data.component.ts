@@ -13,6 +13,7 @@ export class UserDataComponent implements OnInit {
  
   constructor(private dataService: DataService) { }
 
+  
   getUsers(){
     this.dataService.getUsers()
       .subscribe( items => {
